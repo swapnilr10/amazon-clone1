@@ -1,0 +1,42 @@
+.scrollrow {
+    display: flex;
+    flex-direction: column;
+    object-fit: contain;
+    background-color: white;
+    width: 100%;
+    margin: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.scrollrow_allContent {
+    display: flex;
+    flex-direction: row;
+    object-fit: contain;
+    margin: 10px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.scrollrow_title {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.scrollrow_content {
+    padding-right: 20px;
+}
+
+.scrollrow_image {
+    display: flex;
+    width: 100%;
+    min-width: 180px;
+    height: 180px;
+    cursor: pointer;
+}
+
+.scrollrow_price {
+    font-size: 12px;
+    font-weight: 500;
+}

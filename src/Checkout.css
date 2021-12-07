@@ -1,0 +1,40 @@
+.checkout {
+    display: flex;
+    padding: 20px;
+    margin-left: 20px;
+    background-color: white;
+    margin-top: 60px;
+    height: max-content;
+    border-bottom: 1px solid lightgrey;
+    width: 760px;
+    object-fit: contain;
+}
+
+.checkout_title {
+    margin-right: 10px;
+    padding: 10px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.checkout_div {
+    display: flex;
+}
+
+.checkout_right {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    padding: 20px;
+    height: max-content;
+    object-fit: contain;
+}
+
+.checkout_image {
+    width: 290px;
+    height: 40px;
+    padding-bottom: 20px;
+}
+
+.checkout_left {
+    
+}

@@ -1,0 +1,48 @@
+.headerone {
+    height:35px;
+    display:flex;
+    align-items: center;
+    background-color: #232f3e;
+    
+    z-index: 100;
+    width: 100%;
+    overflow: hidden;
+}
+.headerone--hidden {
+    top: -50px;
+}
+
+.headerone_logo {
+    display: flex;
+    height: 35px;
+    object-fit: contain; 
+    margin-left: 67px;
+    justify-content: space-evenly;
+
+} 
+
+.headerone_Line {
+    font-size: 11px;
+    font-weight: 800;
+    color: white;
+    margin-left: 11px;
+}
+
+.headerone_lineList {
+    font-size: 12px;
+    font-weight: 800;
+    color: white;
+    margin-left: 5px;
+}
+
+.headerone_list {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    color: white;
+    margin-left: 10px;
+}
+
+.headerone_lines {
+    margin-bottom: 4px;
+}

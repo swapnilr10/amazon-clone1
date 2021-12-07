@@ -1,0 +1,35 @@
+.rowtwo {
+    display: flex;
+    flex-direction: column;
+    object-fit: contain;
+    background-color: #fff;
+    z-index: 2;
+    margin-bottom: 0;
+    padding: 20px;
+    margin-top: 0;
+    min-width: 100px;
+    width: 220px;
+    max-height: 500px;
+    margin: 10px;
+}
+
+.rowtwo_title {
+    padding: 0px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.rowtwo_image {
+    display: flex;
+    object-fit: contain;
+    width: 100%;
+    min-width: 100px;
+    margin: 10px auto;
+}
+
+.rowtwo_pay {
+    font-size: 12px;
+    color: #007185;
+    text-underline-offset: none;
+}
