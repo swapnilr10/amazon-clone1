@@ -5,7 +5,6 @@ import ShoppingCartOutlinedIcon from '@material-ui/icons/ShoppingCartOutlined';
 import LocationOnOutlinedIcon from '@material-ui/icons/LocationOnOutlined';
 import {Link} from 'react-router-dom';
 import {useStateValue} from './StateProvider';
-import DropdownMenu from './DropdownMenu';
 import { auth } from './firebase';
 import Popup from './Popup';
 
@@ -60,7 +59,6 @@ function Header() {
                    <span className = 'header_optionLineOne'>Hello, {!user ? 'Sign in' : user.email}</span>
                    <span className = 'header_optionLineTwo'>
                        { user ? 'Sign Out' : 'Account & Lists ▼' }
-                       <DropdownMenu />
                    </span>
                </div>
                </Link>
